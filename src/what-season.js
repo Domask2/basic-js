@@ -17,7 +17,7 @@ module.exports = function getSeason(date) {
 
  	// if (date.hasOwnProperty('getMonth')) throw new Error('Not a date!');
 	
-    let  month =  date.getMonth();
+    let  month =  date.getMonth(); 
   
     if(month === 11 || month === 0 || month === 1) return 'winter'
     else if(month === 2 || month === 3 || month === 4) return 'spring'
