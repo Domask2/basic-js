@@ -11,10 +11,10 @@ module.exports = function createDreamTeam(members) {
   let res = [];
   members.forEach((item,i)=> {
     if( typeof item === 'string') {
-      res.push(item.replace(/\s+/g, '').split('')[0].toUpperCase())
+      res.push(item.replace(/\s+/g, '').split('')[0].toUpperCase());
     } return false
   })
 
-  return res.sort().join('')
+  return res.sort().join('');
 };
 

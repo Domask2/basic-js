@@ -15,7 +15,7 @@ module.exports = function dateSample(sample) {
 
 	let key = 0.693 / HALF_LIFE_PERIOD;
 
-	let res = Math.ceil(Math.log(MODERN_ACTIVITY / parseFloat(sample)) / key)
+	let res = Math.ceil(Math.log(MODERN_ACTIVITY / parseFloat(sample)) / key);
 
 	return res
 
